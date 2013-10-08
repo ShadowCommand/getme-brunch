@@ -12,7 +12,7 @@
         "node": "~0.6.10 || 0.8 || 0.9"
     },
     "scripts": {
-        "start": "node_modules/.bin/brunch watch",
+        "start": "node_modules/.bin/brunch watch"
     },
     "dependencies": {
         "brunch": ">= 1.4 < 1.5",
