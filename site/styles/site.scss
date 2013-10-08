@@ -1,0 +1,14 @@
+/* ---- SITE ----
+   Contains all CSS used to format the website. Styles are broken up into multiple, more manageable
+   files and imported into this stylesheet using SASS.
+*/
+
+@charset "UTF-8";
+
+/* Vendor */
+@import "../../vendor/styles/bourbon/bourbon";
+@import "../../vendor/styles/neat/neat";
+@import "../../vendor/styles/reset";
+
+/* Site */
+@import "settings";
