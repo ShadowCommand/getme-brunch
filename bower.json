@@ -1,0 +1,11 @@
+{
+    "name": "getme-site",
+    "version": "0.0.1",
+    "main": "public/site.js",
+    "dependencies": {
+        
+    },
+    "overrides": {
+        
+    }
+}

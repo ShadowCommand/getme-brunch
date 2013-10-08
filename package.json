@@ -1,0 +1,33 @@
+{
+    "author": "Anthony Blackshaw <ant@getme.co.uk>",
+    "name": "brunch-getme",
+    "description": "Base site front-end",
+    "version": "0.0.1",
+    "homepage": "https://github.com/anthonyjb/brunch-getme",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/anthonyjb/brunch-getme"
+    },
+    "engines": {
+        "node": "~0.6.10 || 0.8 || 0.9"
+    },
+    "scripts": {
+        "start": "node_modules/.bin/brunch watch",
+    },
+    "dependencies": {
+        "brunch": ">= 1.4 < 1.5",
+
+        "javascript-brunch": ">= 1.0 < 1.5",
+        "coffee-script-brunch": ">= 1.0 < 1.5",
+        "coffeelint-brunch": ">= 1.0 < 1.5",
+
+        "css-brunch": ">= 1.0 < 1.5",
+        "sass-brunch": ">= 1.4 < 1.5",
+
+        "uglify-js-brunch": ">= 1.0 < 1.5",
+        "clean-css-brunch": ">= 1.0 < 1.5"
+    },
+    "devDependencies": {
+        "coffee-script": "1.3.3"
+    }
+}
