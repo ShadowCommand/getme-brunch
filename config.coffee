@@ -1,6 +1,11 @@
 exports.config =
     paths:
-        public: ''
+        public: 'media'
+        watched: [
+            'site'
+            'vendor'
+            ]
+    
     files:
         javascripts:
             joinTo:
@@ -10,8 +15,12 @@ exports.config =
                       'vendor/scripts/jquery-1.8.3.js'
                     ]
         stylesheets:
-            joinTo: 
-                'css/site.css'
+            joinTo:
+                'css/site.css': /^(site|vendor)/
+                'css/ie.css': /^site\/styles\/ie/
+                
         templates:
             joinTo: 
                 'js/site.js'
+                
+    sourceMaps: false
