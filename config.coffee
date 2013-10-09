@@ -1,6 +1,6 @@
 exports.config =
     paths:
-        public: 'media'
+        public: '../../www/media/'
         watched: [
             'site'
             'vendor'
