@@ -59,8 +59,3 @@ body > iframe {
 * {
     @include box-sizing(border-box);
 }
-
-/* Fix for DeployCMS - Which was built without box-sizing */
-#fluid-ns-outer, #fluid-ns-outer * {
-    @include box-sizing(content-box);
-}
