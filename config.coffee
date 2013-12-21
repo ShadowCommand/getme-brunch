@@ -1,20 +1,21 @@
 exports.config =
     modules:
         definition: false
-            wrapper: (path, data) ->
-              """
-                (function() {
-                    'use strict';
-                    #{data}
-                }).call(this);
-            """
-    
+        wrapper: (path, data) ->
+          """
+            (function() {
+                'use strict';
+                #{data}
+            }).call(this);
+          """
+          
     paths:
-        public: '../../www/media/'
+        public: '../../www/'
+        
         watched: [
             'site'
             'vendor'
-            ]
+        ]
     
     files:
         javascripts:
@@ -28,9 +29,9 @@ exports.config =
             joinTo:
                 'css/site.css': /^(site|vendor)/
                 'css/ie.css': /^site\/styles\/ie/
-                
+    
         templates:
-            joinTo: 
+            joinTo:
                 'js/site.js'
                 
     sourceMaps: false
