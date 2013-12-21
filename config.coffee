@@ -1,4 +1,13 @@
 exports.config =
+    definition: false
+        wrapper: (path, data) ->
+          """
+            (function() {
+                'use strict';
+                #{data}
+            }).call(this);
+          """
+    
     paths:
         public: '../../www/media/'
         watched: [
