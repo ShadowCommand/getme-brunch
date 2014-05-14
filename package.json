@@ -11,10 +11,8 @@
     "dependencies": {
         "coffee-script": "*",
         "clean-css-brunch": "*",
-        "coffeelint-brunch": "*",
         "coffee-script-brunch": "*",
         "css-brunch": "*",
-        "handlebars-brunch": "*",
         "javascript-brunch": "*",
         "sass-brunch": "*",
         "uglify-js-brunch": "*"
