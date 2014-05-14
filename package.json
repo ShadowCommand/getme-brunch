@@ -3,10 +3,10 @@
     "name": "brunch-getme",
     "description": "Base site front-end",
     "version": "0.0.1",
-    "homepage": "https://github.com/anthonyjb/brunch-getme",
+    "homepage": "https://github.com/ShadowCommand/getme-brunch",
     "repository": {
         "type": "git",
-        "url": "https://github.com/anthonyjb/brunch-getme"
+        "url": "https://github.com/ShadowCommand/getme-brunch"
     },
     "dependencies": {
         "coffee-script": "*",
