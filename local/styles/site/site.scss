@@ -6,9 +6,9 @@
 @charset "UTF-8";
 
 /* Vendor */
-@import "../../vendor/styles/bourbon/bourbon";
-@import "../../vendor/styles/neat/neat";
-@import "../../vendor/styles/reset";
+@import "../../../vendor/styles/bourbon/bourbon";
+@import "../../../vendor/styles/neat/neat";
+@import "../../../vendor/styles/reset";
 
 /* Site */
-@import "settings";
+@import "../settings";
